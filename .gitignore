@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-bigml_59c28831336c6604c800002a.csv
+/bigml_59c28831336c6604c800002a.csv
 # C extensions
 *.so
 
