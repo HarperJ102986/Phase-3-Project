@@ -15,7 +15,7 @@ Stakeholder: SyriaTel
 This project utilises data from the Churn in Telecom dataset from Kaggle.
 The target variable in this dataset that we aimed to predict was identified as the churn column.The features of this dataset include locational information (state and area_code) as well as plan details such as call minutes, charges, customer services calls and whether the customer had an international plan and/or voice mail plan. Our model iterations utilised subsets of these features as well as aggregations of these features to determine which features would best predict cusomter churn.
 
-## Models Used
+## Modeling:
 - Decisioin Tree Classifier
 - Logistic Regression Classifier
 - KNN Classifier
@@ -23,10 +23,17 @@ The target variable in this dataset that we aimed to predict was identified as t
 - Gradient Boost Classifer
 Evaluated my models on the bases of recall and accuracy. Recall minimizes overfitting and False Negatives whihc is essential to understanding the data. 
 
-## Results and Reccommendations
+## Evaluation:
+Looking for best recall which helps minimize false negatives in the model.
+DT: good accuracy but not so good recall
+KNN: Good precision but not so good recall
+RF: Good precision, accuracy and recall
+GB: Good precision and accuracy but not the best recall
+
+## Conclusion:
 The best model was the random forest classifier since it had the best recall and accuracy score using the given parameters. This model produced a 95% accuracy score along with a 73% recall value. 4% were false negatives which was the lowest for all 4 models. 
 
-## Future Investigations and Recommendations
+## Future Investigations and Recommendations:
 -Look into the major issues being reported to customer service to figure out the best way to correct those issues.
 -Investigate international plans since over 42% stay
 -Find out why the customers who utilize over 55 minutes per day discontinue the service.
